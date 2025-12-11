@@ -1,0 +1,121 @@
+body {
+          margin: 0px;
+          padding: 0px 500px;
+          background-color: rgb(253, 253, 253);
+}
+
+header {
+          background-color: rgb(189, 32, 32);
+          color: white;
+          height: 200px;
+          padding: 20px 80px;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          font-family: 'Walter Turncoat', cursive;
+          font-weight: 400;
+          font-style: normal;
+          display: flex;
+          align-items: center;
+          gap: 50px;
+}
+
+header div {
+          height: 120px;
+          width: 120px;
+          background-color: gold;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 70px;
+          font-weight: bold;
+          color: white;
+}
+
+h1,
+h2,
+h3,
+p,
+legend {
+          font-family: 'Walter Turncoat', cursive;
+          font-weight: 400;
+          font-style: normal;
+}
+
+h2 {
+          font-size: 50px;
+}
+
+h1 {
+          font-size: 80px;
+}
+
+hr {
+          border: 3px solid rgb(189, 32, 32);
+          border-radius: 10px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+}
+
+fieldset {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 20px;
+          border: 3px solid rgb(189, 32, 32);
+          border-radius: 20px;
+          margin-bottom: 50px;
+}
+
+legend {
+          font-size: 20px;
+}
+
+.card {
+          padding: 20px;
+          border-radius: 20px;
+          font-family: 'Walter Turncoat', cursive;
+          font-weight: 400;
+          font-style: normal;
+}
+
+.card .foodImage {
+          background-color: gold;
+          width: 100%;
+          aspect-ratio: 2 / 2;
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+}
+
+.card section {
+          margin-top: 20px;
+}
+
+.card label {
+          font-size: 25px;
+          margin-bottom: 0px;
+}
+
+.card p {
+          margin: 0px;
+          margin-bottom: 20px;
+}
+
+.card input {
+}
+
+button {
+          margin-bottom: 100px;
+          background-color: rgb(189, 32, 32);
+          border: 0px;
+          padding: 20px 40px;
+          font-family: 'Walter Turncoat', cursive;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 50px;
+          border-radius: 20px;
+          cursor: pointer;
+          color: white;
+}
